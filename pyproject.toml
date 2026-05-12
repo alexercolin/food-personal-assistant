@@ -1,0 +1,41 @@
+[project]
+name = "food-personal-assistant"
+version = "0.1.0"
+description = "WhatsApp nutrition assistant powered by local LLM"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.34.0",
+    "sqlalchemy>=2.0.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "langchain-core>=0.3.0",
+    "langchain-ollama>=0.3.0",
+    "langgraph>=0.4.0",
+    "chromadb>=1.0.0",
+    "sentence-transformers>=3.0.0",
+    "httpx>=0.27.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+    "ruff>=0.8.0",
+]
+
+[project.scripts]
+chat = "src.cli.chat:main"
+seed = "scripts.seed_food_db:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
