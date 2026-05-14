@@ -8,8 +8,8 @@
 ## Tasks
 
 - [x] **Task 1: Project Scaffolding** — pyproject.toml, .gitignore, .env, Makefile, uv sync
-- [ ] **Task 2: Configuration Module** — src/core/config.py (Pydantic Settings)
-- [ ] **Task 3: Database Models and Engine** — SQLAlchemy models, engine, tests ← blocked by Task 2
+- [x] **Task 2: Configuration Module** — src/core/config.py (Pydantic Settings)
+- [x] **Task 3: Database Models and Engine** — SQLAlchemy models, engine, tests
 - [ ] **Task 4: TACO Data Preparation** — data/taco_foods.json (30+ Brazilian foods)
 - [ ] **Task 5: ChromaDB Vector Store** — embeddings, store, seed script, tests ← blocked by Tasks 2, 4
 - [ ] **Task 6: LLM Provider Factory** — src/core/llm.py (ChatOllama wrapper)
