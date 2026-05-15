@@ -12,7 +12,7 @@
 - [x] **Task 3: Database Models and Engine** — SQLAlchemy models, engine, tests
 - [x] **Task 4: TACO Data Preparation** — data/taco_foods.json (40 Brazilian foods)
 - [x] **Task 5: ChromaDB Vector Store** — embeddings, store, seed script, tests
-- [ ] **Task 6: LLM Provider Factory** — src/core/llm.py (ChatOllama wrapper)
+- [x] **Task 6: LLM Provider Factory** — src/core/llm.py (ChatOllama wrapper)
 - [ ] **Task 7: Agent Schemas and Safety** — schemas.py, safety.py, tests ← blocked by Task 2
 - [ ] **Task 8: Prompt Templates** — data/prompts/ (system, intent, extraction, few-shot)
 - [ ] **Task 9: Nutrition and Meal Services** — nutrition_service.py, meal_service.py, tests ← blocked by Tasks 5, 7, 8
