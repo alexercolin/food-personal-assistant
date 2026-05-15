@@ -10,8 +10,8 @@
 - [x] **Task 1: Project Scaffolding** — pyproject.toml, .gitignore, .env, Makefile, uv sync
 - [x] **Task 2: Configuration Module** — src/core/config.py (Pydantic Settings)
 - [x] **Task 3: Database Models and Engine** — SQLAlchemy models, engine, tests
-- [ ] **Task 4: TACO Data Preparation** — data/taco_foods.json (30+ Brazilian foods)
-- [ ] **Task 5: ChromaDB Vector Store** — embeddings, store, seed script, tests ← blocked by Tasks 2, 4
+- [x] **Task 4: TACO Data Preparation** — data/taco_foods.json (40 Brazilian foods)
+- [x] **Task 5: ChromaDB Vector Store** — embeddings, store, seed script, tests
 - [ ] **Task 6: LLM Provider Factory** — src/core/llm.py (ChatOllama wrapper)
 - [ ] **Task 7: Agent Schemas and Safety** — schemas.py, safety.py, tests ← blocked by Task 2
 - [ ] **Task 8: Prompt Templates** — data/prompts/ (system, intent, extraction, few-shot)
@@ -24,6 +24,11 @@
 ## Ready to start (no blockers)
 
 - Task 2, Task 4, Task 6, Task 8
+
+## Tech Debt
+
+- [ ] **Vector search quality** — some queries return unexpected top results (e.g. "frango grelhado" → coxinha instead of peito grelhado, "acai" → mamao). May need synonym tuning or a better embedding strategy.
+- [ ] **TACO data is approximate** — `data/taco_foods.json` was generated from training data, NOT from the official TACO 4th edition (UNICAMP/NEPA). The 40 food entries have approximate nutritional values that may be inaccurate. Before production, replace with the official dataset (597 foods). Search GitHub for "taco-database" repos with pre-processed CSV/JSON exports.
 
 ## Notes
 

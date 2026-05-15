@@ -1,0 +1,664 @@
+[
+  {
+    "id": "taco_001",
+    "name_pt": "Arroz, tipo 1, cozido",
+    "category": "Cereais e derivados",
+    "nutrients_per_100g": {
+      "calories": 128.0,
+      "protein": 2.5,
+      "carbs": 28.1,
+      "fat": 0.2,
+      "fiber": 1.6
+    },
+    "common_portions": [
+      {"description": "1 colher de sopa", "grams": 25},
+      {"description": "1 escumadeira", "grams": 90},
+      {"description": "1 xicara", "grams": 160}
+    ],
+    "synonyms": ["arroz branco", "arroz cozido", "arroz"]
+  },
+  {
+    "id": "taco_002",
+    "name_pt": "Arroz, integral, cozido",
+    "category": "Cereais e derivados",
+    "nutrients_per_100g": {
+      "calories": 124.0,
+      "protein": 2.6,
+      "carbs": 25.8,
+      "fat": 1.0,
+      "fiber": 2.7
+    },
+    "common_portions": [
+      {"description": "1 colher de sopa", "grams": 25},
+      {"description": "1 escumadeira", "grams": 90},
+      {"description": "1 xicara", "grams": 160}
+    ],
+    "synonyms": ["arroz integral"]
+  },
+  {
+    "id": "taco_003",
+    "name_pt": "Feijao, carioca, cozido",
+    "category": "Leguminosas e derivados",
+    "nutrients_per_100g": {
+      "calories": 76.0,
+      "protein": 4.8,
+      "carbs": 13.6,
+      "fat": 0.5,
+      "fiber": 8.5
+    },
+    "common_portions": [
+      {"description": "1 colher de sopa", "grams": 25},
+      {"description": "1 concha", "grams": 120}
+    ],
+    "synonyms": ["feijao", "feijao carioca"]
+  },
+  {
+    "id": "taco_004",
+    "name_pt": "Feijao, preto, cozido",
+    "category": "Leguminosas e derivados",
+    "nutrients_per_100g": {
+      "calories": 77.0,
+      "protein": 4.5,
+      "carbs": 14.0,
+      "fat": 0.5,
+      "fiber": 8.4
+    },
+    "common_portions": [
+      {"description": "1 colher de sopa", "grams": 25},
+      {"description": "1 concha", "grams": 120}
+    ],
+    "synonyms": ["feijao preto", "feijoada"]
+  },
+  {
+    "id": "taco_005",
+    "name_pt": "Frango, peito, sem pele, grelhado",
+    "category": "Carnes e derivados",
+    "nutrients_per_100g": {
+      "calories": 159.0,
+      "protein": 32.0,
+      "carbs": 0.0,
+      "fat": 2.5,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 file medio", "grams": 100},
+      {"description": "1 file grande", "grams": 150}
+    ],
+    "synonyms": ["frango grelhado", "peito de frango", "frango"]
+  },
+  {
+    "id": "taco_006",
+    "name_pt": "Frango, coxa, sem pele, cozida",
+    "category": "Carnes e derivados",
+    "nutrients_per_100g": {
+      "calories": 215.0,
+      "protein": 26.0,
+      "carbs": 0.0,
+      "fat": 12.0,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 coxa media", "grams": 80}
+    ],
+    "synonyms": ["coxa de frango", "frango cozido"]
+  },
+  {
+    "id": "taco_007",
+    "name_pt": "Carne bovina, alcatra, grelhada",
+    "category": "Carnes e derivados",
+    "nutrients_per_100g": {
+      "calories": 212.0,
+      "protein": 32.4,
+      "carbs": 0.0,
+      "fat": 8.5,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 bife medio", "grams": 100},
+      {"description": "1 bife grande", "grams": 150}
+    ],
+    "synonyms": ["bife", "carne grelhada", "alcatra", "carne bovina"]
+  },
+  {
+    "id": "taco_008",
+    "name_pt": "Carne bovina, patinho, cozido",
+    "category": "Carnes e derivados",
+    "nutrients_per_100g": {
+      "calories": 219.0,
+      "protein": 35.9,
+      "carbs": 0.0,
+      "fat": 7.3,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 pedaco medio", "grams": 100}
+    ],
+    "synonyms": ["carne cozida", "patinho", "carne de panela"]
+  },
+  {
+    "id": "taco_009",
+    "name_pt": "Ovo, de galinha, inteiro, cozido",
+    "category": "Ovos e derivados",
+    "nutrients_per_100g": {
+      "calories": 146.0,
+      "protein": 13.3,
+      "carbs": 0.6,
+      "fat": 9.5,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 unidade", "grams": 50}
+    ],
+    "synonyms": ["ovo cozido", "ovo", "ovos"]
+  },
+  {
+    "id": "taco_010",
+    "name_pt": "Ovo, de galinha, inteiro, frito",
+    "category": "Ovos e derivados",
+    "nutrients_per_100g": {
+      "calories": 240.0,
+      "protein": 15.6,
+      "carbs": 0.6,
+      "fat": 19.6,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 unidade", "grams": 50}
+    ],
+    "synonyms": ["ovo frito", "ovo mexido"]
+  },
+  {
+    "id": "taco_011",
+    "name_pt": "Peixe, tilapia, file, grelhado",
+    "category": "Pescados e frutos do mar",
+    "nutrients_per_100g": {
+      "calories": 124.0,
+      "protein": 26.0,
+      "carbs": 0.0,
+      "fat": 1.8,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 file medio", "grams": 120}
+    ],
+    "synonyms": ["tilapia", "peixe grelhado", "peixe", "file de peixe"]
+  },
+  {
+    "id": "taco_012",
+    "name_pt": "Macarrao, trigo, cozido",
+    "category": "Cereais e derivados",
+    "nutrients_per_100g": {
+      "calories": 102.0,
+      "protein": 3.4,
+      "carbs": 19.9,
+      "fat": 0.5,
+      "fiber": 1.5
+    },
+    "common_portions": [
+      {"description": "1 escumadeira", "grams": 110},
+      {"description": "1 prato raso", "grams": 200}
+    ],
+    "synonyms": ["macarrao", "massa", "espaguete", "pasta"]
+  },
+  {
+    "id": "taco_013",
+    "name_pt": "Pao, frances",
+    "category": "Cereais e derivados",
+    "nutrients_per_100g": {
+      "calories": 300.0,
+      "protein": 8.0,
+      "carbs": 58.6,
+      "fat": 3.1,
+      "fiber": 2.3
+    },
+    "common_portions": [
+      {"description": "1 unidade", "grams": 50}
+    ],
+    "synonyms": ["pao", "pao frances", "paozinho"]
+  },
+  {
+    "id": "taco_014",
+    "name_pt": "Pao de queijo, assado",
+    "category": "Cereais e derivados",
+    "nutrients_per_100g": {
+      "calories": 363.0,
+      "protein": 5.5,
+      "carbs": 34.2,
+      "fat": 24.6,
+      "fiber": 0.5
+    },
+    "common_portions": [
+      {"description": "1 unidade media", "grams": 40},
+      {"description": "1 unidade grande", "grams": 60}
+    ],
+    "synonyms": ["pao de queijo"]
+  },
+  {
+    "id": "taco_015",
+    "name_pt": "Banana, prata, crua",
+    "category": "Frutas e derivados",
+    "nutrients_per_100g": {
+      "calories": 98.0,
+      "protein": 1.3,
+      "carbs": 26.0,
+      "fat": 0.1,
+      "fiber": 2.0
+    },
+    "common_portions": [
+      {"description": "1 unidade media", "grams": 86}
+    ],
+    "synonyms": ["banana", "banana prata"]
+  },
+  {
+    "id": "taco_016",
+    "name_pt": "Maca, fuji, com casca, crua",
+    "category": "Frutas e derivados",
+    "nutrients_per_100g": {
+      "calories": 56.0,
+      "protein": 0.3,
+      "carbs": 15.2,
+      "fat": 0.0,
+      "fiber": 1.3
+    },
+    "common_portions": [
+      {"description": "1 unidade media", "grams": 130}
+    ],
+    "synonyms": ["maca", "maca fuji"]
+  },
+  {
+    "id": "taco_017",
+    "name_pt": "Laranja, pera, crua",
+    "category": "Frutas e derivados",
+    "nutrients_per_100g": {
+      "calories": 37.0,
+      "protein": 1.0,
+      "carbs": 8.9,
+      "fat": 0.1,
+      "fiber": 0.8
+    },
+    "common_portions": [
+      {"description": "1 unidade media", "grams": 150}
+    ],
+    "synonyms": ["laranja", "suco de laranja"]
+  },
+  {
+    "id": "taco_018",
+    "name_pt": "Manga, palmer, crua",
+    "category": "Frutas e derivados",
+    "nutrients_per_100g": {
+      "calories": 72.0,
+      "protein": 0.4,
+      "carbs": 19.4,
+      "fat": 0.2,
+      "fiber": 1.6
+    },
+    "common_portions": [
+      {"description": "1 unidade media", "grams": 200}
+    ],
+    "synonyms": ["manga"]
+  },
+  {
+    "id": "taco_019",
+    "name_pt": "Mamao, papaya, cru",
+    "category": "Frutas e derivados",
+    "nutrients_per_100g": {
+      "calories": 45.0,
+      "protein": 0.5,
+      "carbs": 11.6,
+      "fat": 0.1,
+      "fiber": 1.0
+    },
+    "common_portions": [
+      {"description": "1 fatia media", "grams": 150}
+    ],
+    "synonyms": ["mamao", "papaya"]
+  },
+  {
+    "id": "taco_020",
+    "name_pt": "Alface, crespa, crua",
+    "category": "Verduras, hortalicas e derivados",
+    "nutrients_per_100g": {
+      "calories": 11.0,
+      "protein": 1.3,
+      "carbs": 1.7,
+      "fat": 0.0,
+      "fiber": 1.8
+    },
+    "common_portions": [
+      {"description": "1 prato de sobremesa", "grams": 30}
+    ],
+    "synonyms": ["alface", "salada"]
+  },
+  {
+    "id": "taco_021",
+    "name_pt": "Tomate, com semente, cru",
+    "category": "Verduras, hortalicas e derivados",
+    "nutrients_per_100g": {
+      "calories": 15.0,
+      "protein": 1.1,
+      "carbs": 3.1,
+      "fat": 0.1,
+      "fiber": 1.2
+    },
+    "common_portions": [
+      {"description": "1 unidade media", "grams": 100},
+      {"description": "2 fatias", "grams": 40}
+    ],
+    "synonyms": ["tomate"]
+  },
+  {
+    "id": "taco_022",
+    "name_pt": "Cenoura, crua",
+    "category": "Verduras, hortalicas e derivados",
+    "nutrients_per_100g": {
+      "calories": 34.0,
+      "protein": 1.3,
+      "carbs": 7.7,
+      "fat": 0.2,
+      "fiber": 3.2
+    },
+    "common_portions": [
+      {"description": "1 unidade media", "grams": 80},
+      {"description": "1 colher de sopa ralada", "grams": 15}
+    ],
+    "synonyms": ["cenoura"]
+  },
+  {
+    "id": "taco_023",
+    "name_pt": "Brocolis, cozido",
+    "category": "Verduras, hortalicas e derivados",
+    "nutrients_per_100g": {
+      "calories": 25.0,
+      "protein": 2.1,
+      "carbs": 4.4,
+      "fat": 0.3,
+      "fiber": 3.4
+    },
+    "common_portions": [
+      {"description": "1 colher de sopa", "grams": 30},
+      {"description": "1 xicara", "grams": 90}
+    ],
+    "synonyms": ["brocolis"]
+  },
+  {
+    "id": "taco_024",
+    "name_pt": "Leite, integral",
+    "category": "Leite e derivados",
+    "nutrients_per_100g": {
+      "calories": 58.0,
+      "protein": 3.0,
+      "carbs": 4.5,
+      "fat": 3.3,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 copo", "grams": 200},
+      {"description": "1 xicara", "grams": 240}
+    ],
+    "synonyms": ["leite", "leite integral"]
+  },
+  {
+    "id": "taco_025",
+    "name_pt": "Queijo, minas, frescal",
+    "category": "Leite e derivados",
+    "nutrients_per_100g": {
+      "calories": 264.0,
+      "protein": 17.4,
+      "carbs": 3.2,
+      "fat": 20.2,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 fatia media", "grams": 30}
+    ],
+    "synonyms": ["queijo minas", "queijo branco", "queijo"]
+  },
+  {
+    "id": "taco_026",
+    "name_pt": "Iogurte, natural, integral",
+    "category": "Leite e derivados",
+    "nutrients_per_100g": {
+      "calories": 51.0,
+      "protein": 4.1,
+      "carbs": 5.2,
+      "fat": 3.0,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 pote (170g)", "grams": 170},
+      {"description": "1 copo", "grams": 200}
+    ],
+    "synonyms": ["iogurte", "iogurte natural"]
+  },
+  {
+    "id": "taco_027",
+    "name_pt": "Mandioca, cozida",
+    "category": "Tuberculos, raizes e derivados",
+    "nutrients_per_100g": {
+      "calories": 125.0,
+      "protein": 0.6,
+      "carbs": 30.1,
+      "fat": 0.3,
+      "fiber": 1.6
+    },
+    "common_portions": [
+      {"description": "1 pedaco medio", "grams": 80}
+    ],
+    "synonyms": ["mandioca", "macaxeira", "aipim"]
+  },
+  {
+    "id": "taco_028",
+    "name_pt": "Batata, inglesa, cozida",
+    "category": "Tuberculos, raizes e derivados",
+    "nutrients_per_100g": {
+      "calories": 52.0,
+      "protein": 1.2,
+      "carbs": 11.9,
+      "fat": 0.0,
+      "fiber": 1.3
+    },
+    "common_portions": [
+      {"description": "1 unidade media", "grams": 140}
+    ],
+    "synonyms": ["batata", "batata cozida", "batata inglesa"]
+  },
+  {
+    "id": "taco_029",
+    "name_pt": "Batata doce, cozida",
+    "category": "Tuberculos, raizes e derivados",
+    "nutrients_per_100g": {
+      "calories": 77.0,
+      "protein": 0.6,
+      "carbs": 18.4,
+      "fat": 0.1,
+      "fiber": 2.2
+    },
+    "common_portions": [
+      {"description": "1 unidade media", "grams": 150}
+    ],
+    "synonyms": ["batata doce"]
+  },
+  {
+    "id": "taco_030",
+    "name_pt": "Acai, polpa, com xarope de guarana",
+    "category": "Frutas e derivados",
+    "nutrients_per_100g": {
+      "calories": 110.0,
+      "protein": 0.8,
+      "carbs": 22.0,
+      "fat": 3.5,
+      "fiber": 1.5
+    },
+    "common_portions": [
+      {"description": "1 tigela pequena (200ml)", "grams": 200},
+      {"description": "1 tigela media (300ml)", "grams": 300}
+    ],
+    "synonyms": ["acai", "tigela de acai"]
+  },
+  {
+    "id": "taco_031",
+    "name_pt": "Tapioca, com manteiga",
+    "category": "Cereais e derivados",
+    "nutrients_per_100g": {
+      "calories": 338.0,
+      "protein": 0.5,
+      "carbs": 70.0,
+      "fat": 6.0,
+      "fiber": 0.3
+    },
+    "common_portions": [
+      {"description": "1 unidade media", "grams": 80}
+    ],
+    "synonyms": ["tapioca"]
+  },
+  {
+    "id": "taco_032",
+    "name_pt": "Coxinha, de frango, frita",
+    "category": "Preparacoes mistas",
+    "nutrients_per_100g": {
+      "calories": 279.0,
+      "protein": 9.9,
+      "carbs": 28.6,
+      "fat": 14.0,
+      "fiber": 0.5
+    },
+    "common_portions": [
+      {"description": "1 unidade media", "grams": 80},
+      {"description": "1 unidade grande", "grams": 120}
+    ],
+    "synonyms": ["coxinha"]
+  },
+  {
+    "id": "taco_033",
+    "name_pt": "Cafe, infusao",
+    "category": "Bebidas",
+    "nutrients_per_100g": {
+      "calories": 3.0,
+      "protein": 0.2,
+      "carbs": 0.5,
+      "fat": 0.0,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 xicara pequena", "grams": 50},
+      {"description": "1 xicara", "grams": 200}
+    ],
+    "synonyms": ["cafe", "cafezinho", "cafe preto"]
+  },
+  {
+    "id": "taco_034",
+    "name_pt": "Manteiga, com sal",
+    "category": "Gorduras e oleos",
+    "nutrients_per_100g": {
+      "calories": 726.0,
+      "protein": 0.4,
+      "carbs": 0.0,
+      "fat": 82.0,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 porcao (10g)", "grams": 10},
+      {"description": "1 colher de cha", "grams": 5}
+    ],
+    "synonyms": ["manteiga"]
+  },
+  {
+    "id": "taco_035",
+    "name_pt": "Azeite, de oliva, extra virgem",
+    "category": "Gorduras e oleos",
+    "nutrients_per_100g": {
+      "calories": 884.0,
+      "protein": 0.0,
+      "carbs": 0.0,
+      "fat": 100.0,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 colher de sopa", "grams": 13},
+      {"description": "1 colher de cha", "grams": 5}
+    ],
+    "synonyms": ["azeite", "azeite de oliva"]
+  },
+  {
+    "id": "taco_036",
+    "name_pt": "Lentilha, cozida",
+    "category": "Leguminosas e derivados",
+    "nutrients_per_100g": {
+      "calories": 93.0,
+      "protein": 6.3,
+      "carbs": 16.3,
+      "fat": 0.5,
+      "fiber": 7.9
+    },
+    "common_portions": [
+      {"description": "1 colher de sopa", "grams": 25},
+      {"description": "1 concha", "grams": 120}
+    ],
+    "synonyms": ["lentilha"]
+  },
+  {
+    "id": "taco_037",
+    "name_pt": "Abacate, cru",
+    "category": "Frutas e derivados",
+    "nutrients_per_100g": {
+      "calories": 96.0,
+      "protein": 1.2,
+      "carbs": 6.0,
+      "fat": 8.4,
+      "fiber": 6.3
+    },
+    "common_portions": [
+      {"description": "1 colher de sopa", "grams": 30},
+      {"description": "metade", "grams": 100}
+    ],
+    "synonyms": ["abacate"]
+  },
+  {
+    "id": "taco_038",
+    "name_pt": "Suco de laranja, integral",
+    "category": "Bebidas",
+    "nutrients_per_100g": {
+      "calories": 36.0,
+      "protein": 0.6,
+      "carbs": 8.6,
+      "fat": 0.1,
+      "fiber": 0.1
+    },
+    "common_portions": [
+      {"description": "1 copo", "grams": 250}
+    ],
+    "synonyms": ["suco de laranja", "suco natural"]
+  },
+  {
+    "id": "taco_039",
+    "name_pt": "Pizza, mussarela",
+    "category": "Preparacoes mistas",
+    "nutrients_per_100g": {
+      "calories": 247.0,
+      "protein": 11.0,
+      "carbs": 29.0,
+      "fat": 10.0,
+      "fiber": 1.5
+    },
+    "common_portions": [
+      {"description": "1 fatia", "grams": 107}
+    ],
+    "synonyms": ["pizza", "pizza de mussarela", "pizza de calabresa"]
+  },
+  {
+    "id": "taco_040",
+    "name_pt": "Hamburguer, bovino, grelhado",
+    "category": "Carnes e derivados",
+    "nutrients_per_100g": {
+      "calories": 258.0,
+      "protein": 20.0,
+      "carbs": 0.0,
+      "fat": 20.0,
+      "fiber": 0.0
+    },
+    "common_portions": [
+      {"description": "1 unidade", "grams": 90}
+    ],
+    "synonyms": ["hamburguer", "burger", "hamburger"]
+  }
+]
