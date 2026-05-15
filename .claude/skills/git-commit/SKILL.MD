@@ -109,6 +109,23 @@ EOF
 )"
 ```
 
+### 5. Ask the user whether they want to push
+
+After the commit is created successfully, ask the user whether they want to push it.
+
+Before pushing:
+- Show the current branch with `git branch --show-current`
+- Show the configured upstream with `git status -sb`
+- If no upstream is configured, ask before using `git push -u origin <branch>`
+- Never push automatically without explicit confirmation
+- Never force push
+
+If the user confirms, run:
+
+```bash
+git push
+
+
 ## Best Practices
 
 - One logical change per commit
@@ -124,3 +141,6 @@ EOF
 - NEVER skip hooks (--no-verify) unless user asks
 - NEVER force push to main/master
 - If commit fails due to hooks, fix and create NEW commit (don't amend)
+- NEVER push without explicit user confirmation
+- NEVER force push
+- If no upstream branch exists, ask before setting one with `git push -u`
