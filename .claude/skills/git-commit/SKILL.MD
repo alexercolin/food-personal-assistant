@@ -111,11 +111,15 @@ EOF
 
 ### 5. Ask the user whether they want to push
 
-After the commit is created successfully, ask the user whether they want to push it.
+After the commit is created successfully, use the `AskUserQuestion` tool to ask the user whether they want to push. Before asking, run `git branch --show-current` and `git status -sb` to include the branch and upstream info in the question text.
 
-Before pushing:
-- Show the current branch with `git branch --show-current`
-- Show the configured upstream with `git status -sb`
+Example question: "On `main`, 1 commit ahead of `origin/main`. Push to remote?"
+
+Options:
+- **Yes** — push immediately
+- **No** — skip push
+
+Rules:
 - If no upstream is configured, ask before using `git push -u origin <branch>`
 - Never push automatically without explicit confirmation
 - Never force push
